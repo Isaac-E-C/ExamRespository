@@ -85,7 +85,7 @@ export const AppointmentForm = ({ onCreateAppointment }: AppointmentFormProps) =
 
 
       <button type="submit" disabled={isSaving}>
-        {isSaving ? 'Saving info' : 'info'}
+        {isSaving ? 'Saving info' : 'Submit'}
       </button>
     </form>
   );
