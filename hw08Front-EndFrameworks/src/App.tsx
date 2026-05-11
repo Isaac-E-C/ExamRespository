@@ -48,10 +48,10 @@ function App() {
       });
 
       if (!response.ok) {
-        throw new Error('Appointment could not be saved');
+        throw new Error('follower could not be saved');
       }
 
-      setNotification({ message: 'Appointment saved successfully', type: 'success' });
+      setNotification({ message: 'Follower saved successfully', type: 'success' });
       await loadAppointments();
     } catch (error) {
       setNotification({ message: error instanceof Error ? error.message : 'Server connection error', type: 'error' });
