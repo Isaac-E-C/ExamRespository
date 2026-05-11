@@ -9,7 +9,7 @@ const emptyAppointment: AppointmentData = {
   userName: '',
   soccerTeamName: '',
   bestPlayerOAT: '',
-  rivalTeam:'',
+  rivalTeam: '',
   CityTeam: '',
   championships: 1,
   worstPlayer: '',
@@ -81,7 +81,7 @@ export const AppointmentForm = ({ onCreateAppointment }: AppointmentFormProps) =
           <input name="worstPlayer" value={appointment.worstPlayer} onChange={handleInputChange} placeholder="Alan Shearer" required />
         </label>
 
-
+      </div>
 
 
       <button type="submit" disabled={isSaving}>
