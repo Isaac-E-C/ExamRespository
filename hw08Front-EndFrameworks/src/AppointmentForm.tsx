@@ -68,7 +68,7 @@ export const AppointmentForm = ({ onCreateAppointment }: AppointmentFormProps) =
 
         <label>
           Which City is the home of your Team?
-          <input name="rivalTeam" value={appointment.CityTeam} onChange={handleInputChange} placeholder="Madrid" required />
+          <input name="CityTeam" value={appointment.CityTeam} onChange={handleInputChange} placeholder="Madrid" required />
         </label>
 
         <label>
