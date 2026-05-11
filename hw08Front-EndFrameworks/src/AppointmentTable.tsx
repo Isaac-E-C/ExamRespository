@@ -36,7 +36,7 @@ export const AppointmentTable = ({ appointments, isLoading }: AppointmentTablePr
               <td>{appointment.bestPlayerOAT}</td>
               <td>{appointment.rivalTeam}</td>
               <td>{appointment.CityTeam}</td>
-              <td>{appointment.championships} min</td>
+              <td>{appointment.championships}</td>
               <td>{appointment.worstPlayer}</td>
             </tr>
           ))}
