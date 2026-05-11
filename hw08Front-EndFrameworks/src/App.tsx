@@ -64,11 +64,11 @@ function App() {
     <main className="app-shell">
       <section className="hero-section">
         <div>
-          <span className="eyebrow">SER SALUD</span>
-          <h1>Appointment dashboard</h1>
+          <span className="eyebrow">Soccer Teams</span>
+          <h1>Soccer Teams dashboard</h1>
         </div>
         <div className="summary-panel">
-          <span>Total appointments</span>
+          <span>Total followers</span>
           <strong>{appointments.length}</strong>
         </div>
       </section>
@@ -79,7 +79,7 @@ function App() {
         <AppointmentForm onCreateAppointment={handleCreateAppointment} />
         <section className="appointments-panel">
           <div className="section-heading">
-            <h2>Scheduled appointments</h2>
+            <h2>Followers</h2>
           </div>
           <AppointmentTable appointments={appointments} isLoading={isLoading} />
         </section>
